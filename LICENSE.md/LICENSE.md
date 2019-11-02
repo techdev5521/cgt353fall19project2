@@ -1,8 +1,13 @@
-# GamahCode General Purpose License v1.2
-1. You are free to run, study, modify and redistribute unmodified as well as modified versions of this code, but you would be an idiot to do any of those things.
-2. You also can NOT give any credit to the original creator.
-3. I don't want anyone to know that I wrote this.
-4. Redistributions of this code must carry GamahCode License 1.2 or greater.
-5. Gamah is not personally responsible for any damages measurable or otherwise that result from this code.
+# DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+Version 2, December 2004 
 
-See http://gamahgpl.org/ for the same thing.
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+
+Everyone is permitted to copy and distribute verbatim or modified 
+copies of this license document, and changing it is allowed as long 
+as the name is changed. 
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+0. You just DO WHAT THE FUCK YOU WANT TO.
