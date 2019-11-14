@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project2 - Test Page 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+    </header>
+
+    <main>
+       <h1>Test Page</h1>
+        <img src="css/comic2.jpg" width="300px" height="200px" alt="comic2" />
+        <p>Text content and instructions go here. CSS will add more flavor and design to this text box</p>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+
+    </main>
+
+    <script>
+      document.getElementById("next").onclick = function() {
+        location.href = "page3.html";
+      };
+
+      document.getElementById("prev").onclick = function() {
+        location.href = "page1.html";
+      };
+
+    </script>
+
+    <footer>
+    </footer>
+  </body>
+</html>
