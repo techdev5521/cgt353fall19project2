@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(150, 200,200);
+	text-align:center;
+	font-size:15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight:500;
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	width: 777px;
+	margin-left: -400px;
+}
