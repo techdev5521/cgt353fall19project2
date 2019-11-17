@@ -22,7 +22,8 @@ body{
 #topcontainer{
     width:777px;
 	position:relative;
-	overflow:hidden;
+    overflow:hidden;
+    text-align: center;
 }
 
 #maincontainer{
