@@ -55,4 +55,6 @@ a{
     background: url(/css/images/backbutton.png) no-repeat;
     width: 200px;
     height: 71px;
+    border: none;
+    cursor: pointer;
 }
