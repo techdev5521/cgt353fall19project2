@@ -33,7 +33,6 @@ body{
 
 #comic{
     position: relative;
-    left: 50%;
     margin: auto;
     z-index: 9;
 }
