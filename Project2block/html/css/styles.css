@@ -19,6 +19,12 @@ body{
 	border-radius: 11px;
 }
 
+#topcontainer{
+    width:777px;
+	position:relative;
+	overflow:hidden;
+}
+
 #maincontainer{
     width:777px;
 	margin: 5px  auto;
