@@ -50,3 +50,7 @@ a{
     color: black;
     font-weight: bold;
 }
+
+#prev{
+    background: url(/css/images/backbutton.png) no-repeat;
+}
