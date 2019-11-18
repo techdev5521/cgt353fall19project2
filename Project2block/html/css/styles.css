@@ -11,7 +11,7 @@ body{
 	margin-left: -400px;
 }
 
-.box { /*any of the box layouts & white backgrounds*/
+.box {
 	background:white;
 	border-style:solid;
 	border-width:1.5px;
@@ -19,8 +19,58 @@ body{
 	border-radius: 11px;
 }
 
+#topcontainer{
+    width:777px;
+	position:relative;
+    overflow:hidden;
+    text-align: center;
+    margin: 0, auto;
+}
+
 #maincontainer{
     width:777px;
 	margin: 5px  auto;
 	padding: 10px 0;
+}
+
+#bottomcontainer{
+    width:750px;
+    margin-top:5px;
+	padding:25px 15px;
+}
+
+#title{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#comic{
+    position: relative;
+    margin: auto;
+    z-index: 9;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#prev{
+    background-image: url("backbutton.png");
+    background-color: none;
+    width: 200px;
+    height: 71px;
+    border: none;
+    cursor: pointer;
+}
+
+#next{
+    background-image: url("forwardbutton.png");
+    background-color: none;
+    width: 200px;
+    height: 71px;
+    border: none;
+    cursor: pointer;
 }
