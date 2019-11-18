@@ -33,6 +33,12 @@ body{
 	padding: 10px 0;
 }
 
+#bottomcontainer{
+    width:750px;
+    margin-top:5px;
+	padding:25px 15px;
+}
+
 #title{
     margin: 10px;
     font-size: 20px;
