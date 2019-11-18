@@ -52,8 +52,17 @@ a{
 }
 
 #prev{
-    background-image: url("backbutton.PNG");
-    background-position: top;
+    background-image: url("backbutton.png");
+    background-color: none;
+    width: 200px;
+    height: 71px;
+    border: none;
+    cursor: pointer;
+}
+
+#next{
+    background-image: url("forwardbutton.png");
+    background-color: none;
     width: 200px;
     height: 71px;
     border: none;
