@@ -53,6 +53,7 @@ a{
 
 #prev{
     background-image: url(css/backbutton.png) no-repeat;
+    background-position: top;
     width: 200px;
     height: 71px;
     border: none;
