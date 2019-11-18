@@ -1,4 +1,3 @@
 # Todo
 
-- [ ] - Test Task Not Done
-- [x] - Test Task Done
+- [ ] - Create Google Sheet for Task Management (Justin)
