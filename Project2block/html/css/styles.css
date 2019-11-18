@@ -59,7 +59,7 @@ a{
 
 #prev{
     background-image: url("backbutton.png");
-    background-color: none;
+    background-color: transparent;
     width: 200px;
     height: 71px;
     border: none;
@@ -68,7 +68,7 @@ a{
 
 #next{
     background-image: url("forwardbutton.png");
-    background-color: none;
+    background-color: transparent;
     width: 200px;
     height: 71px;
     border: none;

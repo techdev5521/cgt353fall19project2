@@ -49,28 +49,30 @@
     </main>
 
     <script>
-      
+ /*     
       document.getElementById("next").onclick = function() {
         location.href = "page1pt.1.html";
-/*
+*/
         function change() {
           {
+            console.log("change1")
                 document.getElementById("comicimage").src = "css/comic1.jpeg";
                 document.getElementById('comictext').innerHTML = "This is a test";
                 document.getElementById('next').onclick = function() { location.href="page1pt.1.html"; };
-                document.getElementById('prev').onclick = "change2()"; 
+                document.getElementById('prev').onclick = change2; 
                 }
 
       }
 
       function change2() {
           {
+            console.log("change2")
                 document.getElementById("comicimage").src = "css/images/comic example.png";
                 document.getElementById('comictext').innerHTML = "This is also a test";
-                document.getElementById('next').onclick = "change()";
-*/
-      }
+                document.getElementById('next').onclick = change;
 
+      }
+      }
     </script>
 
     <footer>
