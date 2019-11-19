@@ -11,7 +11,8 @@
 	<body>
 
 		<header>
-			<!-- Include Header w/ PHP Here -->
+			<!-- Include Navigation -->
+			<?php include("includes/navigation.php"); ?>
 		</header>
 
 		<main>
@@ -89,6 +90,6 @@
 
 		<footer>
 		</footer>
-		
+
 	</body>
 </html>
