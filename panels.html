@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Project2 - Demonstration</title>
+    <title>Project2 - Panels</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
@@ -19,11 +19,12 @@
       <br>
     <div class="box" id="maincontainer">
       <div id="title">
-       <h1>Demonstraition</h1>
+       <h1>Panels</h1>
       </div>
       <div id="comic">
-        <img src="css/images/comic example.png" id="comicimage" alt="comic1" />
-        <p id="comictext">When it comes to making a comic or web comic of any kind, it is important to know what tools you have at your disposal. Comics come in many shapes and sizes and utilize many different techniques to make static pages feel more dynamic and conversational. Within this chapter we will look into the many assets that make up a comic and how you can use them to create your own!</p>
+        <img src="css/images/comictemplate.png" id="comicimage" alt="comic1" />
+        <p id="comictext">This small window on the page is known as a "panel" and is the fundamental building block for any comic strip. These little squares can come in all shapes and sizes and its main purpose move the story along by guiding the reader from one panel to the next. Panels can be used to exaggerate actions or to string a series of events together in a way the reader can easily understand. They also offer a wide variety of different styles to gie a bit more flavor to the overall concept of the comic.
+        </p>
         </div>
         <br>
         <button id="prev"> </button>
@@ -46,6 +47,9 @@
     <script>
       
       document.getElementById("next").onclick = function() {
+        location.href = "speechbubbles.html";
+      }
+        document.getElementById("prev").onclick = function() {
         location.href = "template.html";
 /*
         function change() {
