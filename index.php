@@ -34,10 +34,9 @@
 					<img src="css/images/comic example.png" id="comicimage" alt="comic1" />
 					<p id="comictext">Have you ever read a web comic like Penny Arcade, xkcd, or Homestuck, or even a
 						regular print comic and thought “I want to do something like that and show it to the
-						world”, but didn’t know how to go about that? Well this is an illustrated just for you! In
+						world”, but didn’t know how to go about that? Well this chapter is just for you! In
 						this comic about making a web comic, we’ll go over all the steps to take in order to get
-						you on the right track of making your gift to the online world. The first thing you need to
-					do is…</p>
+						you on the right track of making your gift to the online world.</p>
 				</div>
 
 				<br>
