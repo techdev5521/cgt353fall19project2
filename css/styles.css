@@ -1,6 +1,6 @@
 body{
-    background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/patternbackground.jpg) no-repeat;
-
+    background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/background.png) ;
+    background-size: cover;
     height: 100%;
 	text-align:center;
 	font-size:15px;
@@ -10,7 +10,15 @@ body{
 	position: absolute;
 	left: 50%;
 	width: 777px;
-	margin-left: -400px;
+	margin-left: -555px;
+}
+
+#header{
+    width:1111px;
+	height:125px;
+	background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/sitename.png) no-repeat;
+	position:relative;
+	margin: 0 auto;
 }
 
 .box {
@@ -29,14 +37,21 @@ body{
     margin: 0, auto;
 }
 
+#advertisement{
+    width:725px;
+	height:100px;
+	top:18px;
+	right:50px;
+}
+
 #maincontainer{
-    width:777px;
+    width:1111px;
 	margin: 5px  auto;
 	padding: 10px 0;
 }
 
 #bottomcontainer{
-    width:750px;
+    width:1075px;
     margin-top:5px;
 	padding:25px 15px;
 }
