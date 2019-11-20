@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project2 - Outline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+    </header>
+
+    <main>
+      <br>
+      <div id="topcontainer" class="box">
+        <h1><a href="chapters.html">Chapters</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></h1>
+      </div>
+      <br>
+    <div class="box" id="maincontainer">
+      <div id="title">
+       <h1>Basic Outline</h1>
+      </div>
+      <div id="comic">
+        <img src="css/images/comictemplate.png" id="comicimage" alt="comic1" />
+        <p id="comictext">Here are some basic outlines for a comic strip that you would normally see in a book. While they look different they all generally follow the same function as any other piece of literature. They are read from left to right, top to bottom, and generally span across two pages.</p>
+
+        <br />
+
+        <p>Use the arrows above to scroll through the many styles comic pages can come in!</p>
+        </div>
+        <br>
+        <button id="prev"> </button>
+        <img src="css/images/pagenumber0.PNG" alt="page number">
+        <button id="next" onclick="change()"> </button>
+        <br>
+        <br>
+      </div>
+      <br>
+      <div id="bottomcontainer" class="box">
+        <h1>Website Created By:</h1>
+        <br>
+        <h1>Ian Coffman</h1>
+        <h1>Josh Heller</h1>
+        <h1>Justin Campbell</h1>
+
+      </div>
+    </main>
+
+    <script>
+      
+      document.getElementById("next").onclick = function() {
+        location.href = "demo1.html";
+      }
+
+        document.getElementById("prev").onclick = function() {
+        location.href = "panels.html";
+/*
+        function change() {
+          {
+                document.getElementById("comicimage").src = "css/comic1.jpeg";
+                document.getElementById('comictext').innerHTML = "This is a test";
+                document.getElementById('next').onclick = function() { location.href="page1pt.1.html"; };
+                document.getElementById('prev').onclick = "change2()"; 
+                }
+
+      }
+
+      function change2() {
+          {
+                document.getElementById("comicimage").src = "css/images/comic example.png";
+                document.getElementById('comictext').innerHTML = "This is also a test";
+                document.getElementById('next').onclick = "change()";
+*/
+      }
+
+    </script>
+
+    <footer>
+    </footer>
+  </body>
+</html>
