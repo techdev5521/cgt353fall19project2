@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(150, 200,200);
+    background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/patternbackground.jpg);
 	text-align:center;
 	font-size:15px;
 	font-family: 'Times New Roman', Times, serif;
@@ -59,7 +59,7 @@ a{
 
 #prev{
     background-image: url("backbutton.png");
-    background-color: none;
+    background-color: transparent;
     width: 200px;
     height: 71px;
     border: none;
@@ -68,7 +68,7 @@ a{
 
 #next{
     background-image: url("forwardbutton.png");
-    background-color: none;
+    background-color: transparent;
     width: 200px;
     height: 71px;
     border: none;
