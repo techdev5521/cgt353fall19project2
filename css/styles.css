@@ -1,6 +1,6 @@
 body{
-    background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/background.png) ;
-    background-size: cover;
+    background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/backgroundpattern.png) ;
+
     height: 100%;
 	text-align:center;
 	font-size:15px;
@@ -16,7 +16,6 @@ body{
 #header{
     width:1111px;
 	height:125px;
-	background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/sitename.png) no-repeat;
 	position:relative;
 	margin: 0 auto;
 }
@@ -26,22 +25,70 @@ body{
 	border-style:solid;
 	border-width:1.5px;
 	border-color:#ffffff;
-	border-radius: 11px;
+    border-radius: 11px;
+    box-shadow: 10px 10px 8px black;
 }
 
+.box2 {
+	background: rgb(50, 205, 166);
+	border-style:solid;
+	border-width:1.5px;
+	border-color:rgb(50, 205, 166);
+    border-radius: 11px;
+    box-shadow: 10px 10px 8px black;
+}
+
+.box3 {
+	background: rgb(130, 233, 207);
+	border-style:solid;
+	border-width:1.5px;
+	border-color: rgb(130, 233, 207);
+    border-radius: 11px;
+    box-shadow: 10px 10px 8px black;
+}
+
+.box4 {
+	background: rgb(167, 240, 220);
+	border-style:solid;
+	border-width:3px;
+	border-color: rgb(57, 187, 155);
+    border-radius: 11px;
+}
+
+
 #topcontainer{
-    width:777px;
+    float: center;
+
+    font-size:15px;
+    width:1111px;
 	position:relative;
     overflow:hidden;
     text-align: center;
     margin: 0, auto;
 }
 
+#topcontainer a{
+	background: rgb(20,168, 130);
+	height:20px;
+	border-style:solid;
+	border-width:1.5px;
+	border-radius: 11px;
+	line-height:20px;
+	padding:4px;
+	margin-left:4px;
+	color: white;
+}
+
+#topcontainer a:hover{
+	background:rgb(0, 125, 255);
+}
+
 #advertisement{
-    width:725px;
-	height:100px;
+    width:750px;
+	height:110px;
 	top:18px;
-	right:50px;
+    right:50px;
+    float: left;
 }
 
 #maincontainer{
@@ -60,6 +107,7 @@ body{
     margin: 10px;
     font-size: 20px;
     font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #comic{
