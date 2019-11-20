@@ -125,8 +125,17 @@ a{
 #prev{
     background-image: url("backbutton.png");
     background-color: transparent;
-    width: 200px;
-    height: 71px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+#prev:hover{
+    background-image: url("backbuttonhover.png");
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
     border: none;
     cursor: pointer;
 }
@@ -134,8 +143,17 @@ a{
 #next{
     background-image: url("forwardbutton.png");
     background-color: transparent;
-    width: 200px;
-    height: 71px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+#next:hover{
+    background-image: url("forwardbuttonhover.png");
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
     border: none;
     cursor: pointer;
 }
