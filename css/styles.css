@@ -1,5 +1,5 @@
 body{
-    background:url(file:///C:/Users/Ian/Documents/GitHub/cgt353fall19project2/images/backgroundpattern.png) ;
+    background:url("backgroundpattern.png") ;
 
     height: 100%;
 	text-align:center;
