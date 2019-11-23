@@ -15,8 +15,8 @@
       <br>
       <div id="topcontainer" class="box">
         <div class="dropdown"> 
-        <h1 onclick="showDropdown()">Introduction</h1>
-            <div class="dropdown-content">
+        <h1 onclick="showDropdown()" class="clickDrop">Introduction</h1>
+            <div id="dropdownItems" class="dropdown-content">
               <a href="page1pt.1.html">Think of an Idea</a>
               <a href="page2.html">Develop Settings and Characters</a>
               <a href="page3pt.1.html">Plan out Your Comic</a>
@@ -30,8 +30,8 @@
             </div>
             </div>
             <div class="dropdown">
-            <h1>Demonstrations</h1>
-              <div class="dropdown-content">
+            <h1 onclick="showDropdown2()" class="clickDrop">Demonstrations</h1>
+              <div id="dropdownItems2" class="dropdown-content">
                 <a href="template.html">Basic Outline</a>
                 <a href="panels.html">Panels</a>
                 <a href="speechbubbles.html">Speech Bubbles</a>
@@ -80,12 +80,16 @@
         location.href = "template.html";
       }
 
-  function myFunction() {
-  document.getElementById("dropdown").classList.toggle("reveal");
+  function showDropdown() {
+  document.getElementById("dropdownItems").classList.toggle("reveal");
+}
+
+function showDropdown2() {
+  document.getElementById("dropdownItems2").classList.toggle("reveal");
 }
 
 window.onclick = function(event) {
-  if (!event.target.matches('.dropdown')) {
+  if (!event.target.matches('.clickDrop')) {
     var list = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < list.length; i++) {
