@@ -15,7 +15,7 @@
       <br>
       <div id="topcontainer" class="box">
         <div class="dropdown"> 
-        <h1>Introduction</h1>
+        <h1 onclick="showDropdown()">Introduction</h1>
             <div class="dropdown-content">
               <a href="page1pt.1.html">Think of an Idea</a>
               <a href="page2.html">Develop Settings and Characters</a>
@@ -78,24 +78,24 @@
       }
         document.getElementById("prev").onclick = function() {
         location.href = "template.html";
-/*
-        function change() {
-          {
-                document.getElementById("comicimage").src = "css/comic1.jpeg";
-                document.getElementById('comictext').innerHTML = "This is a test";
-                document.getElementById('next').onclick = function() { location.href="page1pt.1.html"; };
-                document.getElementById('prev').onclick = "change2()"; 
-                }
-
       }
 
-      function change2() {
-          {
-                document.getElementById("comicimage").src = "css/images/comic example.png";
-                document.getElementById('comictext').innerHTML = "This is also a test";
-                document.getElementById('next').onclick = "change()";
-*/
+  function myFunction() {
+  document.getElementById("dropdown").classList.toggle("reveal");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropdown')) {
+    var list = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < list.length; i++) {
+      var open = list[i];
+      if (open.classList.contains('reveal')) {
+        open.classList.remove('reveal');
       }
+    }
+  }
+}
 
     </script>
 

@@ -187,3 +187,7 @@ a{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .reveal {
+    display: block;
+  }
