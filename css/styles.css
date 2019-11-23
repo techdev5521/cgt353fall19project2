@@ -183,7 +183,7 @@ a{
   .dropdown-content a:hover {
     background-color: black
   }
-  
-  .dropdown:hover .dropdown-content {
+
+  .reveal {
     display: block;
   }
