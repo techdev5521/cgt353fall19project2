@@ -15,7 +15,7 @@
       <br>
       <div id="topcontainer" class="box">
         <div class="dropdown"> 
-        <h1 onclick="showDropdown()" class="clickDrop">Introduction</h1>
+        <h1 onclick="showDropdown()" id="clickDrop">Introduction</h1>
             <div id="dropdownItems" class="dropdown-content">
               <a href="page1pt.1.html">Think of an Idea</a>
               <a href="page2.html">Develop Settings and Characters</a>
@@ -30,7 +30,7 @@
             </div>
             </div>
             <div class="dropdown">
-            <h1 onclick="showDropdown2()" class="clickDrop">Demonstrations</h1>
+            <h1 onclick="showDropdown2()" id="clickDrop">Demonstrations</h1>
               <div id="dropdownItems2" class="dropdown-content">
                 <a href="template.html">Basic Outline</a>
                 <a href="panels.html">Panels</a>
@@ -41,7 +41,7 @@
                 <a href="caption.html">Captions</a>
               </div>
               </div>
-              <h1><a href="about.html">About</a> | <a href="contact.html">Contact</a></h1>
+              <h1><a href="about.html">About</a> <a href="contact.html">Contact</a></h1>
            </div>
       <br>
     <div class="box" id="maincontainer">
@@ -89,7 +89,7 @@ function showDropdown2() {
 }
 
 window.onclick = function(event) {
-  if (!event.target.matches('.clickDrop')) {
+  if (!event.target.matches('#clickDrop')) {
     var list = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < list.length; i++) {
