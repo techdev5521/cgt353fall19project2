@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Project2 - Step 9</title>
+    <title>Project2 - Step 4 Pt.1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
@@ -13,28 +13,34 @@
     </header>
 
     <main>
-       <h1>Step 9: Advertising!</h1>
-       <img src="images/page9.png" id="comicimage" alt="comic" />
+       <h1>Step 4: Do a test run</h1>
+       <img src="images/page4.png" id="comicimage" alt="comic" />
         <p></p>
         <button id="prev" onclick="change0()"></button>
         <button id="next" onclick="change()"></button>
-
 
     </main>
 
     <script>
     function change0() {
 
-location.href="page8.html" ;
+location.href="page3.html" ;
 
 }   
+    
+function change2() {
+
+document.getElementById("comicimage").src = "images/page4.png";
+document.getElementById('next').onclick = function() {change()};
+document.getElementById('prev').onclick = function() {change0()};
+}
 
 function change() {
 
-location.href="page10.html"; 
-
+document.getElementById("comicimage").src = "images/page4.1.png";
+document.getElementById('next').onclick = function() { location.href="page5.html"; };
+document.getElementById('prev').onclick = function() {change2()};
 }
-
     </script>
 
     <footer>
