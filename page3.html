@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Project2 - Step 7</title>
+    <title>Project2 - Step 3 Pt.1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
@@ -13,35 +13,42 @@
     </header>
 
     <main>
-       <h1>Step 7: Finding a host for your comic</h1>
-       <img src="images/page 7.png" id="comicimage" alt="comic" />
+       <h1>Step 3: Planning out your comic</h1>
+       <img src="images/page 3.png" id="comicimage" alt="comic" />
         <p></p>
         <button id="prev" onclick="change0()"></button>
-        <img src="css/images/pagenumber7.PNG" alt="page number">
+        <img src="css/images/pagenumber3.PNG" alt="page number">
         <button id="next" onclick="change()"></button>
-
 
     </main>
 
     <script>
+		
     function change0() {
 
-location.href="page6.html" ;
+location.href="page2.html" ;
 
 }   
     
+function change() {
+
+document.getElementById("comicimage").src = "images/page 3.1.png";
+document.getElementById('next').onclick = function() {change3()};
+document.getElementById('prev').onclick = function() {change2()};
+}
+
 function change2() {
 
-document.getElementById("comicimage").src = "images/page 7.png";
+document.getElementById("comicimage").src = "images/page 3.png";
 document.getElementById('next').onclick = function() {change()};
 document.getElementById('prev').onclick = function() {change0()};
 }
 
-function change() {
+function change3() {
 
-document.getElementById("comicimage").src = "images/page 7.1.png";
-document.getElementById('next').onclick = function() { location.href="page8.html"; };
-document.getElementById('prev').onclick = function() {change2()};
+document.getElementById("comicimage").src = "images/page 3.2.png";
+document.getElementById('next').onclick = function() { location.href="page4.html"; };
+document.getElementById('prev').onclick = function() {change()};
 }
     </script>
 
