@@ -22,14 +22,16 @@
        <h1>Basic Outline</h1>
       </div>
       <div id="comic">
-        <img src="css/images/comictemplate.png" width="300px" height="200px" id="comicimage" alt="comic1" />
+        <img src="css/images/comictemplate.png" width="300px" height="200px" id="style1" alt="comic1" />
+        <img src="css/images/comictemplate2.png" width="300px" height="200px" id="style2" alt="comic2" />
+        <img src="css/images/comictemplate3.jpg" width="300px" height="200px" id="style3" alt="comic3" />
         <p id="comictext">Here are some basic outlines for a comic strip that you would normally see in a book. While they look different they all generally follow the same function as any other piece of literature. They are read from left to right, top to bottom, and generally span across two pages.</p>
 
         <br />
-        <button onclick="changeStyle" id="style1">Style 1</button>
-        <button onclick="changeStyle" id="style2">Style 2</button>
-        <button onclick="changeStyle" id="style3">Style 3</button>
-        <p>Use the buttons above to scroll through the many styles comic pages can come in!</p>
+        <button onclick="showStyle1()">Style 1</button>
+        <button onclick="showStyle2()">Style 2</button>
+        <button onclick="showStyle3()">Style 3</button>
+        <p>Use the buttons above to see the many styles comic pages can come in!</p>
         </div>
         <br>
         <button id="prev"> </button>
@@ -59,9 +61,23 @@
         location.href = "demo1.html";
         }
 
-       function styleChange() {
-        
+       function showStyle1() {
+        document.getElementById('style1').style.display = 'block';
+        document.getElementById('style2').style.display = 'none';
+        document.getElementById('style3').style.display = 'none';
        } 
+
+       function showStyle2() {
+        document.getElementById('style1').style.display = 'none';
+        document.getElementById('style2').style.display = 'block';
+        document.getElementById('style3').style.display = 'none';
+      } 
+
+      function showStyle3() {
+        document.getElementById('style1').style.display = 'none';
+        document.getElementById('style2').style.display = 'none';
+        document.getElementById('style3').style.display = 'block';
+      } 
 
 /*
         function change() {

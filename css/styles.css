@@ -159,6 +159,21 @@ a{
     cursor: pointer;
 }
 
+#style1 {
+display: block;
+margin: 0 auto;
+}
+
+#style2 {
+  display: none; 
+  margin: 0 auto; 
+}
+
+#style3 {
+  display: none; 
+  margin: 0 auto; 
+}
+
 /* DROPDOWN MENU STUFF */ 
 
 #clickDrop {
