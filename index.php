@@ -5,21 +5,25 @@
 		<title>Project2 - Introduction</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="icon" href="images/browser-symbol.png">
 		<link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 
 		<header>
-			<!-- Include Navigation -->
-			<?php include("includes/navigation.php"); ?>
+
 		</header>
 
 		<main>
+			<div id="header">
+				<img src="css/images/sitename.PNG"  alt="website"/>
+				<img src="css/images/ad.PNG" alt="advertisement"/>
+			</div>
 			<br>
 
-			<div id="topcontainer" class="box">
-				<h1><a href="chapters.html">Chapters</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></h1>
+			<div id="topcontainer" class="box2">
+				<?php include('includes/navigation.php'); ?>
 			</div>
 
 			<br>
@@ -31,12 +35,8 @@
 				</div>
 
 				<div id="comic">
-					<img src="css/images/comic example.png" id="comicimage" alt="comic1" />
-					<p id="comictext">Have you ever read a web comic like Penny Arcade, xkcd, or Homestuck, or even a
-						regular print comic and thought “I want to do something like that and show it to the
-						world”, but didn’t know how to go about that? Well this chapter is just for you! In
-						this comic about making a web comic, we’ll go over all the steps to take in order to get
-						you on the right track of making your gift to the online world.</p>
+					<img src="images/page1.png" id="comicimage" alt="comic1" />
+					<p id="comictext"></p>
 				</div>
 
 				<br>
@@ -55,36 +55,45 @@
 
 			<br>
 
-			<div id="bottomcontainer" class="box">
+			<div id="bottomcontainer" class="box3">
+				<div class="box4">
 				<h1>Website Created By:</h1>
 				<br>
 				<h1>Ian Coffman</h1>
 				<h1>Josh Heller</h1>
 				<h1>Justin Campbell</h1>
 			</div>
+			</div>
 
 		</main>
 
 		<script>
-		
+		/*
 		document.getElementById("next").onclick = function() {
 		location.href = "page1pt.1.html";
-		/*
-		function change() {
-		{
-		document.getElementById("comicimage").src = "css/comic1.jpeg";
-		document.getElementById('comictext').innerHTML = "This is a test";
-		document.getElementById('next').onclick = function() { location.href="page1pt.1.html"; };
-		document.getElementById('prev').onclick = "change2()";
-		}
-		}
-		function change2() {
-		{
-		document.getElementById("comicimage").src = "css/images/comic example.png";
-		document.getElementById('comictext').innerHTML = "This is also a test";
-		document.getElementById('next').onclick = "change()";
 		*/
+		function change() {
+
+		document.getElementById("comicimage").src = "images/page1.2.png";
+		document.getElementById('next').onclick = function() {change3()};
+		document.getElementById('prev').onclick = function() {change2()};
 		}
+
+		function change2() {
+
+		document.getElementById("comicimage").src = "images/page1.png";
+		document.getElementById('next').onclick = function() {change()};
+
+
+		}
+
+		function change3() {
+
+		document.getElementById("comicimage").src = "images/page1.3.png";
+		document.getElementById('next').onclick = function() { location.href="page1.html"; };
+		document.getElementById('prev').onclick = function() {change()};
+		}
+
 		</script>
 
 		<footer>

@@ -1,9 +1,9 @@
 <!-- Start navigation.php -->
 
-<nav>
-	<a href="intro.html">Intro</a> | 
-	<a href="about.html">About</a> | 
+<h1>
+	<a href="chapters.html">Chapters</a>
+	<a href="about.html">About</a>
 	<a href="contact.html">Contact</a>
-</nav>
+</h1>
 
 <!-- End navigation.php -->
