@@ -1,5 +1,5 @@
 body{
-    background:url("backgroundpattern.png") ;
+    background:url("../images/backgroundpattern.png") ;
 
     height: 100%;
 	text-align:center;
@@ -124,7 +124,7 @@ a{
 }
 
 #prev{
-    background-image: url("backbutton.png");
+    background-image: url("../images/backbutton.png");
     background-color: transparent;
     width: 100px;
     height: 35px;
@@ -133,7 +133,7 @@ a{
 }
 
 #prev:hover{
-    background-image: url("backbuttonhover.png");
+    background-image: url("../images/backbuttonhover.png");
     background-color: transparent;
     width: 100px;
     height: 35px;
@@ -142,7 +142,7 @@ a{
 }
 
 #next{
-    background-image: url("forwardbutton.png");
+    background-image: url("../images/forwardbutton.png");
     background-color: transparent;
     width: 100px;
     height: 35px;
@@ -151,7 +151,7 @@ a{
 }
 
 #next:hover{
-    background-image: url("forwardbuttonhover.png");
+    background-image: url("../images/forwardbuttonhover.png");
     background-color: transparent;
     width: 100px;
     height: 35px;
@@ -176,7 +176,7 @@ margin: 0 auto;
 }
 
 #message {
-    background-image: url("images/bubble3.png");
+    background-image: url("../images/images/bubble3.png");
     background-repeat: no-repeat;
     background-color: transparent;
     background-attachment: inherit;
