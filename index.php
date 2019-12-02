@@ -17,8 +17,8 @@
 
 		<main>
 			<div id="header">
-				<img src="css/images/sitename.PNG"  alt="website"/>
-				<img src="css/images/ad.PNG" alt="advertisement"/>
+				<img src="images/sitename.PNG"  alt="website"/>
+				<img src="images/ad.PNG" alt="advertisement"/>
 			</div>
 			<br>
 
@@ -43,7 +43,7 @@
 
 				<button id="prev"> </button>
 
-				<img src="css/images/pagenumber0.PNG" alt="page number">
+				<img src="images/pagenumber0.PNG" alt="page number">
 
 				<button id="next" onclick="change()"> </button>
 
