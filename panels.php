@@ -50,10 +50,10 @@
 	</main>
 	<script>
 		document.getElementById("next").onclick = function() {
-			location.href = "speechbubbles.html";
+			location.href = "speechbubbles.php";
 		}
 		document.getElementById("prev").onclick = function() {
-			location.href = "template.html";
+			location.href = "template.php";
 		}
 		function showDropdown() {
 			document.getElementById("dropdownItems").classList.toggle("reveal");

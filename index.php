@@ -58,7 +58,7 @@
 			}
 			function change3() {
 				document.getElementById("comicimage").src = "images/page1.3.png";
-				document.getElementById('next').onclick = function() { location.href="page1.html"; };
+				document.getElementById('next').onclick = function() { location.href="page1.php"; };
 				document.getElementById('prev').onclick = function() {change()};
 			}
 		</script>

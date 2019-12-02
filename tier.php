@@ -51,16 +51,16 @@
 	<script>
 		
 		document.getElementById("next").onclick = function() {
-			location.href = "splash.html";
+			location.href = "splash.php";
 		}
 			document.getElementById("prev").onclick = function() {
-			location.href = "speechbubbles.html";
+			location.href = "speechbubbles.php";
 	/*
 			function change() {
 				{
 							document.getElementById("comicimage").src = "css/comic1.jpeg";
 							document.getElementById('comictext').innerHTML = "This is a test";
-							document.getElementById('next').onclick = function() { location.href="page1pt.1.html"; };
+							document.getElementById('next').onclick = function() { location.href="page1pt.1.php"; };
 							document.getElementById('prev').onclick = "change2()";
 							}
 		}

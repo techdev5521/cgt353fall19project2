@@ -50,7 +50,7 @@
 	</main>
 	<script>
 		document.getElementById("next").onclick = function() {
-			location.href = "template.html";
+			location.href = "template.php";
 		}
 	</script>
 </body>

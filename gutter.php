@@ -52,10 +52,10 @@
 	</main>
 	<script>
 		document.getElementById("next").onclick = function() {
-			location.href = "caption.html";
+			location.href = "caption.php";
 		}
 			document.getElementById("prev").onclick = function() {
-			location.href = "splash.html";
+			location.href = "splash.php";
 		}
 	</script>
 </body>

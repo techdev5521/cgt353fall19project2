@@ -48,7 +48,7 @@
 		</main>
 		<script>
 			function change0() {
-				location.href="page9.html" ;
+				location.href="page9.php" ;
 			}
 		</script>
 	</body>

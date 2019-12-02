@@ -46,7 +46,7 @@
 		</main>
 		<script>
 			function change0() {
-				location.href="page1.html" ;
+				location.href="page1.php" ;
 			}
 			function change() {
 				document.getElementById("comicimage").src = "images/page 2.1.png";
@@ -60,7 +60,7 @@
 			}
 			function change3() {
 				document.getElementById("comicimage").src = "images/page 2.2.png";
-				document.getElementById('next').onclick = function() { location.href="page3.html"; };
+				document.getElementById('next').onclick = function() { location.href="page3.php"; };
 				document.getElementById('prev').onclick = function() {change()};
 			}
 		</script>

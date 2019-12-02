@@ -48,7 +48,7 @@
 		</main>
 		<script>
 			function change0() {
-				location.href="page5.html" ;
+				location.href="page5.php" ;
 			}
 			
 			function change2() {
@@ -58,7 +58,7 @@
 			}
 			function change() {
 				document.getElementById("comicimage").src = "images/page6.1.png";
-				document.getElementById('next').onclick = function() { location.href="page7.html"; };
+				document.getElementById('next').onclick = function() { location.href="page7.php"; };
 				document.getElementById('prev').onclick = function() {change2()};
 			}
 		</script>

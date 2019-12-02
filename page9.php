@@ -48,10 +48,10 @@
 		</main>
 		<script>
 			function change0() {
-				location.href="page8.html" ;
+				location.href="page8.php" ;
 			}
 			function change() {
-				location.href="page10.html";
+				location.href="page10.php";
 			}
 		</script>
 	</body>

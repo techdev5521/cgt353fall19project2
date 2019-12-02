@@ -61,10 +61,10 @@
 
 		<script>		
 			document.getElementById("next").onclick = function() {
-				location.href = "panels.html";
+				location.href = "panels.php";
 			}
 			document.getElementById("prev").onclick = function() {
-			location.href = "demo1.html";
+			location.href = "demo1.php";
 			}
 		 function showStyle1() {
 			document.getElementById('style1').style.display = 'block';

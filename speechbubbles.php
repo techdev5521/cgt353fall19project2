@@ -55,10 +55,10 @@
 </main>
 <script>
 	document.getElementById("next").onclick = function() {
-		location.href = "tier.html";
+		location.href = "tier.php";
 	}
 		document.getElementById("prev").onclick = function() {
-		location.href = "panels.html";
+		location.href = "panels.php";
 	}
 </script>
 </body>

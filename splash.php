@@ -50,10 +50,10 @@
 	</main>
 	<script>
 		document.getElementById("next").onclick = function() {
-			location.href = "gutter.html";
+			location.href = "gutter.php";
 		}
 			document.getElementById("prev").onclick = function() {
-			location.href = "tier.html";
+			location.href = "tier.php";
 		}
 	</script>
 </body>

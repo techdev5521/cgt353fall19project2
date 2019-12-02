@@ -49,7 +49,7 @@
 	</main>
 	<script>
 			document.getElementById("prev").onclick = function() {
-			location.href = "gutter.html";
+			location.href = "gutter.php";
 		}
 	</script>
 </body>
