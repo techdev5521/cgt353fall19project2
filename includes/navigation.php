@@ -3,13 +3,13 @@
 <br>
 			<div id="topcontainer" class="box2	">
 				<div class="dropdown"> 
-				<h1><a onclick="showDropdown()" id="clickDrop">Getting Started</a></h1>
+				<h1><a onclick="showDropdown()" id="clickDrop">Chapters</a></h1>
 						<div id="dropdownItems" class="dropdown-content">
 							<a href="index.php">Introduction</a>
-							<a href="page1pt.1.php">Think of an Idea</a>
+							<a href="page1.php">Think of an Idea</a>
 							<a href="page2.php">Develop Settings and Characters</a>
-							<a href="page3pt.1.php">Plan out Your Comic</a>
-							<a href="page4pt.1.php">Do a Test Run</a>
+							<a href="page3.php">Plan out Your Comic</a>
+							<a href="page4.php">Do a Test Run</a>
 							<a href="page5.php">Getting Feedback</a>
 							<a href="page6.php">Making a Schedule</a>
 							<a href="page7.php">Finding a Host for your Comic</a>
@@ -21,6 +21,7 @@
 						<div class="dropdown">
 						<h1><a onclick="showDropdown2()" id="clickDrop">Demonstrations</a></h1>
 							<div id="dropdownItems2" class="dropdown-content">
+								<a href="demo1.php">Summary</a>
 								<a href="template.php">Basic Outline</a>
 								<a href="panels.php">Panels</a>
 								<a href="speechbubbles.php">Speech Bubbles</a>
