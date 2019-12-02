@@ -55,13 +55,6 @@
 		document.getElementById("prev").onclick = function() {
 			location.href = "template.php";
 		}
-		function showDropdown() {
-			document.getElementById("dropdownItems").classList.toggle("reveal");
-		}
-		function showDropdown2() {
-			document.getElementById("dropdownItems2").classList.toggle("reveal");
-		}
-	
 		window.onclick = function(event) {
 			if (!event.target.matches('#clickDrop')) {
 				var list = document.getElementsByClassName("dropdown-content");
