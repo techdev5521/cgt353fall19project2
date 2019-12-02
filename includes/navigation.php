@@ -3,7 +3,7 @@
 <br>
 			<div id="topcontainer" class="box2	">
 				<div class="dropdown"> 
-				<h1><a onclick="showDropdown()" id="clickDrop">Getting Started</a></h1>
+				<h1><a onclick="showDropdown()" id="clickDrop">Chapter</a></h1>
 						<div id="dropdownItems" class="dropdown-content">
 							<a href="index.php">Introduction</a>
 							<a href="page1pt.1.php">Think of an Idea</a>
