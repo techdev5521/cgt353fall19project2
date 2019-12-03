@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<div id="header">
-			<img src="images/sitename.PNG"  alt="website"/>
-			<img src="images/ad.PNG" alt="advertisement"/>
+			<img src="images/sitename.png"  alt="website"/>
+			<img src="images/ad.png" alt="advertisement"/>
 		</div>
 		<br>
 		

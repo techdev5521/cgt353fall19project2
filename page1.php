@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<div id="header">
-			<img src="images/sitename.PNG"  alt="website"/>
-			<img src="images/ad.PNG" alt="advertisement"/>
+			<img src="images/sitename.png"  alt="website"/>
+			<img src="images/ad.png" alt="advertisement"/>
 		</div>
 		<br>
 		
@@ -28,7 +28,7 @@
 					<p></p>
 				</div>
 				<button id="prev" onclick="change0()"> </button>
-				<img src="images/pagenumber1.PNG" alt="page number">
+				<img src="images/pagenumber1.png" alt="page number">
 				<button id="next" onclick="change()"> </button>
 				<br>
 				<br>
