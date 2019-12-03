@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div id="header">
-			<img src="images/sitename.png"  alt="website"/>
+		<a href="index.php"><img src="images/sitename.png"  alt="website"/></a>
 			<img src="images/ad.png" alt="advertisement"/>
 		</div>
 		<br>
