@@ -63,7 +63,7 @@ body {
 	height: 85px;
 }
 
-#topcontainer a, #topcontainer .dropdown h1 {
+#topcontainer a {
 	background: rgb(20, 168, 130);
 	border-style: solid;
 	border-width: 1.5px;
@@ -172,7 +172,7 @@ a {
 }
 
 #message {
-	background-image: url("../images/images/bubble3.png");
+	background-image: url("../images/bubble3.png");
 	background-repeat: no-repeat;
 	background-color: transparent;
 	background-attachment: inherit;

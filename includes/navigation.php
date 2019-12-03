@@ -1,7 +1,4 @@
 <!-- Start navigation.php -->
-
-<br>
-			<div id="topcontainer" class="box2	">
 				<div class="dropdown"> 
 				<h1><a onclick="showDropdown()" id="clickDrop">Chapters</a></h1>
 						<div id="dropdownItems" class="dropdown-content">
