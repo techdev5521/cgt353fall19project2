@@ -13,7 +13,7 @@
 		<main>
 			<div id="header">
 				<a href="index.php"><img src="images/sitename.png"  alt="website"/></a>
-				<img src="images/ad.png" alt="advertisement"/>
+				<img src="images/product.png" alt="product"/>
 			</div>
 			<br>
 			<div id="topcontainer" class="box2">
