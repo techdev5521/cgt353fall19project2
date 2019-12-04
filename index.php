@@ -13,7 +13,7 @@
 		<main>
 			<div id="header">
 				<a href="index.php"><img src="images/sitename.png"  alt="website"/></a>
-				<img src="images/product.png" alt="product"/>
+				<img src="images/product.PNG" alt="product"/>
 			</div>
 			<br>
 			<div id="topcontainer" class="box2">
@@ -29,7 +29,7 @@
 					<p id="comictext"></p>
 				</div>
 				<br>
-				<button id="prev"> </button>
+				<button id="hide"> </button>
 				<img src="images/pagenumber0.png" alt="page number">
 				<button id="next" onclick="change()"> </button>
 				<br>
@@ -50,11 +50,13 @@
 			function change() {
 				document.getElementById("comicimage").src = "images/page1.2.png";
 				document.getElementById('next').onclick = function() {change3()};
+				document.getElementById("hide").id = "prev";
 				document.getElementById('prev').onclick = function() {change2()};
 			}
 			function change2() {
 				document.getElementById("comicimage").src = "images/page1.png";
 				document.getElementById('next').onclick = function() {change()};
+				document.getElementById("prev").id = "hide";
 			}
 			function change3() {
 				document.getElementById("comicimage").src = "images/page1.3.png";
