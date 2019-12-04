@@ -30,7 +30,6 @@
 				<br>
 				<button id="prev" onclick="change0()"></button>
 				<img src="images/pagenumber10.png" alt="page number">
-				<button id="next"></button>
 				
 				<br>
 				<br>
