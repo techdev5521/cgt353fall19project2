@@ -28,8 +28,8 @@
 					<p id="comictext">When it comes to making a comic or web comic of any kind, it is important to know what tools you have at your disposal. Comics come in many shapes and sizes and utilize many different techniques to make static pages feel more dynamic and conversational. Within this chapter we will look into the many assets that make up a comic and how you can use them to create your own!</p>
 				</div>
 				<br>
-				<button id="prev"> </button>
-				<img src="images/pagenumber0.png" alt="page number">
+
+
 				<button id="next" onclick="change()"> </button>
 				<br>
 				<br>

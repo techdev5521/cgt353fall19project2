@@ -31,7 +31,7 @@
 				</div>
 				<br>
 				<button id="prev"> </button>
-				<img src="images/pagenumber0.png" alt="page number">
+
 				<button id="next" onclick="change()"> </button>
 				<br>
 				<br>
