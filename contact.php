@@ -62,6 +62,40 @@
 					<h1>Justin Campbell</h1>
 				</div>
 			</div>
+
+			<script>
+ validation = () => {
+      event.preventDefault();
+
+      resetErrors(); 
+      let errorSpotted = false;
+
+      const firstName = document.forms["form"]["firstName"]
+      const firstNameValue = document.forms["form"]["firstName"].value.trim()
+      if (firstNameValue == "") {
+        firstName.parentNode.classList.add("error")
+        errorSpotted = true;
+      }
+  
+      const lastName = document.forms["form"]["lastName"]
+      const lastNameValue = document.forms["form"]["lastName"].value.trim()
+      if (lastNameValue == "") {
+        lastName.parentNode.classList.add("error")
+        errorSpotted = true;
+      }
+
+      const _replyto = document.forms["form"]["_replyto"]
+      const _replytoValue = document.forms["form"]["_replyto"].value.trim()
+      if (_replytoValue == "") {
+        _replyto.parentNode.classList.add("error")
+        errorSpotted = true;
+      }
+
+      if (!validateEmailAddress(_replytoValue)){
+        _replyto.parentNode.classList.add("errorEmail")
+        errorSpotted = true;
+      }
+			</script>
 		</main>
 	</body>
 </html>

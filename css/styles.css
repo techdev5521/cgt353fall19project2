@@ -223,3 +223,19 @@ a {
 .reveal {
 	display: block;
 }
+
+.error {
+	color: red;
+	font-weight: bold;
+  }
+  
+  .error textarea,
+  .error input {
+	border-color: red;
+  }
+  
+  .error::after {
+	color: red;
+	font-size: 12px;
+	content: " Please complete this field";
+  }
