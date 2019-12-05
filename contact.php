@@ -24,7 +24,31 @@
 					<h1>Contact</h1>
 				</div>
 				<div id="comic">
-					<p>Text content and instructions go here. CSS will add more flavor and design to this text box</p>
+				<form action="https://formspree.io/xbjrooar" method="POST" onsubmit ="return validation()" name="form" id="form">
+          <feildset>
+            <legend>Please fill out the listed fields below to sign up for the club!</legend>
+         <label>
+           First Name*<br>
+          <input type="text" name="firstName">
+        </label><br>
+        <label>
+            Last Name*<br>
+           <input type="text" name="lastName">
+         </label><br>
+         <label>
+           Email*<br>
+          <input type="email" name="_replyto">
+		 </label><br>
+		 <label>
+           What's on your mind?*<br>
+           <textarea name="message" id="message"></textarea>
+         </label><br>
+         <legend>
+            *required field
+          </legend>
+         <button type="submit">Submit that puppy!</button>
+        </fieldset>
+        </form>
 				</div>
 				<br>
 			</div>
