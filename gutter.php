@@ -27,7 +27,6 @@
 					<img src="images/gutter.jfif"  id="comicimage" alt="comic1" />
 					<p id="comictext">The "Gutter" os the space between panels. They come in many sizes and can generally effect how easy it is to read certain panels.</p>
 					<br />
-					<p>Use the buttons to see different sized gutters!</p>
 				</div>
 				<br>
 				<button id="prev"> </button>
