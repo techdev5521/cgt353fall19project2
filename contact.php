@@ -29,15 +29,15 @@
             <legend>Please fill out the listed fields below</legend>
          <label>
            First Name*<br>
-          <input type="text" name="firstName">
+          <input type="text" name="firstName" required>
         </label><br>
         <label>
             Last Name*<br>
-           <input type="text" name="lastName">
+           <input type="text" name="lastName" required>
          </label><br>
          <label>
            Email*<br>
-          <input type="email" name="_replyto">
+          <input type="email" name="_replyto" required>
 		 </label><br>
 		 <label>
            What's on your mind?*<br>
