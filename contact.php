@@ -41,7 +41,7 @@
 		 </label><br>
 		 <label>
            What's on your mind?*<br>
-           <textarea name="message" id="message"></textarea>
+           <textarea name="message" id="message" required></textarea>
          </label><br>
          <legend>
             *required field
