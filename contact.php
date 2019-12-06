@@ -24,7 +24,7 @@
 					<h1>Contact</h1>
 				</div>
 				<div id="comic">
-				<form action="https://formspree.io/xbjrooar" method="POST" onsubmit ="return validation()" name="form" id="form">
+        <form action="https://formspree.io/mledpbvz" method="POST" onsubmit ="return validation()" name="form" id="form">
           <feildset>
             <legend>Please fill out the listed fields below</legend>
          <label>
