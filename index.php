@@ -7,8 +7,6 @@
 		<?php include('includes/meta.php'); ?>
 	</head>
 	<body>
-		<header>
-		</header>
 		<main>
 			<div id="header">
 				<a href="index.php"><img src="images/sitename.png"  alt="website"/></a>
