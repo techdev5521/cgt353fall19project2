@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<title>Project2 - Step 7</title>
 
 		<!-- Meta and Link Data -->
 		<?php include('includes/meta.php'); ?>
 	</head>
+
 	<body>
 		<div id="header">
 		<a href="index.php"><img src="images/sitename.png"  alt="website"/></a>

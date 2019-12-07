@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<title>Project2 - Outline</title>
 
 		<!-- Meta and Link Data -->
 		<?php include('includes/meta.php'); ?>
 	</head>
+
 
 	<body>
 			<div id="header">

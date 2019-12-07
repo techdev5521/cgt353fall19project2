@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 	<head>
 		<title>Project2 - Introduction</title>
 		
 		<!-- Meta and Link Data -->
 		<?php include('includes/meta.php'); ?>
 	</head>
+
 	<body>
 		<main>
 			<div id="header">
