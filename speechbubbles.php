@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<title>Project2 - Speech Bubbles</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="css/styles.css" />
-		<link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
+
+		<!-- Meta and Link Data -->
+		<?php include('includes/meta.php'); ?>
 	</head>
 	<body>
 		<div id="header">
