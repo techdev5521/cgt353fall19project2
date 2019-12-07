@@ -37,15 +37,12 @@
 				<br>
 			</div>
 			<br>
-			<div id="bottomcontainer" class="box3">
-				<div class="box4">
-					<h1>Website Created By:</h1>
-					<br>
-					<h1>Ian Coffman</h1>
-					<h1>Josh Heller</h1>
-					<h1>Justin Campbell</h1>
-				</div>
-			</div>
+
+			<footer id="bottomcontainer" class="box3">
+				<!-- Include Footer Information -->
+				<?php include('includes/footer.php'); ?>
+			</footer>
+			
 		</main>
 		<script>
 			function change0() {
