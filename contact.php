@@ -25,7 +25,7 @@
 				</div>
 				<div id="comic">
         <form action="https://formspree.io/mledpbvz" method="POST" onsubmit ="return validation()" name="form" id="form">
-          <feildset>
+          <fieldset>
             <legend>Please fill out the listed fields below</legend>
          <label>
            First Name*<br>
