@@ -101,6 +101,7 @@ function validateEmailAddress(email) {
         _replyto.parentNode.classList.add("errorEmail")
         errorSpotted = true;
       }
+ }
 			</script>
 		</main>
 	</body>
