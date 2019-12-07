@@ -8,6 +8,8 @@
 		<?php include('includes/meta.php'); ?>
 	</head>
 
+
+
 	<body>
 
 		<header>
@@ -19,46 +21,49 @@
 		</header>
 
 		<main>
-
 			<div class="box" id="maincontainer">
+
 				<div id="title">
 					<h1>Step 6: Making a Schedule</h1>
 				</div>
+
 				<div id="comic">
 					<img src="images/page6.png" id="comicimage" alt="comic" />
-					<p></p>
 				</div>
-				<br>
+
+
 				<button id="prev" onclick="change0()"></button>
 				<img src="images/pagenumber6.png" alt="page number">
 				<button id="next" onclick="change()"></button>
-				
-				<br>
-				<br>
-			</div>
-			<br>
 
-			<footer id="bottomcontainer" class="box3">
-				<!-- Include Footer Information -->
-				<?php include('includes/footer.php'); ?>
-			</footer>
+			</div>
 			
 		</main>
-		<script>
-			function change0() {
-				location.href="page5.php" ;
-			}
-			
-			function change2() {
-				document.getElementById("comicimage").src = "images/page6.png";
-				document.getElementById('next').onclick = function() {change()};
-				document.getElementById('prev').onclick = function() {change0()};
-			}
-			function change() {
-				document.getElementById("comicimage").src = "images/page6.1.png";
-				document.getElementById('next').onclick = function() { location.href="page7.php"; };
-				document.getElementById('prev').onclick = function() {change2()};
-			}
-		</script>
+
+		<footer id="bottomcontainer" class="box3">
+			<!-- Include Footer Information -->
+			<?php include('includes/footer.php'); ?>
+		</footer>
+
 	</body>
+
+
+	<script>
+		function change0() {
+			location.href="page5.php" ;
+		}		
+		function change2() {
+			document.getElementById("comicimage").src = "images/page6.png";
+			document.getElementById('next').onclick = function() {change()};
+			document.getElementById('prev').onclick = function() {change0()};
+		}
+		function change() {
+			document.getElementById("comicimage").src = "images/page6.1.png";
+			document.getElementById('next').onclick = function() { location.href="page7.php"; };
+			document.getElementById('prev').onclick = function() {change2()};
+		}
+	</script>
+
+
+
 </html>

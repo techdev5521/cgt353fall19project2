@@ -8,6 +8,8 @@
 		<?php include('includes/meta.php'); ?>
 	</head>
 
+
+
 	<body>
 
 		<header>
@@ -19,45 +21,46 @@
 		</header>
 
 		<main>
-
 			<div class="box" id="maincontainer">
+
 				<div id="title">
 					<h1>Speech Bubbles</h1>
 				</div>
+
 				<div id="comic">
 					<label>
 						<textarea name="message" id="message"></textarea>
-					</label><br>
+					</label>
 					<p id="comictext">"Speech Bubbles" are pretty self explainatory, they are small sections of text that indicate speech coming from a particular character in the panel. The person talking is indicated by where the tail meets the mouth of the talking character. An important rule of thumb for speech bubbles is to position them how you would read a book, make sure the speech bubble of whoever is talking first is placed near the top of the page and placed slightly to the left if there is a converstaion. Any other bubbles should follow below the previous ones, and make sure to have all connections between the bubbles apparent to the reader. Speech bubbles can also be used to emphasize tone of voice by using different designs for them, so pick whichever one fits the situation best!</p>
-					<br />
+
 					<p>Click on the bubble to type a message to have the character speak!</p>
 				</div>
-				<br>
+
 				<button id="prev"> </button>
-
 				<button id="next" onclick="change()"> </button>
-				<br>
-				<br>
-			</div>
-			<br>
 
-			<footer id="bottomcontainer" class="box3">
-				<!-- Include Footer Information -->
-				<?php include('includes/footer.php'); ?>
-			</footer>
-			
-			
-		</div>
-	</div>
+			</div>
 	
-</main>
-<script>
-	document.getElementById("next").onclick = function() {
-		location.href = "tier.php";
-	}
-		document.getElementById("prev").onclick = function() {
-		location.href = "panels.php";
-	}
-</script>
-</body>
+		</main>
+
+		<footer id="bottomcontainer" class="box3">
+			<!-- Include Footer Information -->
+			<?php include('includes/footer.php'); ?>
+		</footer>
+
+	</body>
+
+
+
+	<script>
+		document.getElementById("next").onclick = function() {
+			location.href = "tier.php";
+		}
+			document.getElementById("prev").onclick = function() {
+			location.href = "panels.php";
+		}
+	</script>
+
+
+	
 </html>

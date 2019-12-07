@@ -7,6 +7,9 @@
 		<!-- Meta and Link Data -->
 		<?php include('includes/meta.php'); ?>
 	</head>
+
+
+
 	<body>
 
 		<header>
@@ -18,34 +21,33 @@
 		</header>
 
 		<main>
-
 			<div class="box" id="maincontainer">
+
 				<div id="title">
 					<h1>Gutter</h1>
 				</div>
+
 				<div id="comic">
 					<img src="images/gutter.jfif"  id="comicimage" alt="comic1" />
 					<p id="comictext">The "Gutter" os the space between panels. They come in many sizes and can generally effect how easy it is to read certain panels.</p>
 					<br />
 				</div>
-				<br>
+
 				<button id="prev"> </button>
-
 				<button id="next" onclick="change()"> </button>
-				<br>
-				<br>
-			</div>
-			<br>
 
-			<footer id="bottomcontainer" class="box3">
-				<!-- Include Footer Information -->
-				<?php include('includes/footer.php'); ?>
-			</footer>
-			
-			
-		</div>
-		
-	</main>
+			</div>
+		</main>
+
+		<footer id="bottomcontainer" class="box3">
+			<!-- Include Footer Information -->
+			<?php include('includes/footer.php'); ?>
+		</footer>
+
+	</body>
+
+
+
 	<script>
 		document.getElementById("next").onclick = function() {
 			location.href = "caption.php";
@@ -54,5 +56,7 @@
 			location.href = "splash.php";
 		}
 	</script>
-</body>
+
+
+
 </html>

@@ -21,7 +21,6 @@
 		</header>
 
 		<main>
-
 			<div class="box" id="maincontainer">
 
 				<div id="title">
@@ -67,5 +66,7 @@
 			document.getElementById('prev').onclick = function() {change()};
 		}
 	</script>
+
+
 
 </html>

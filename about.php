@@ -8,6 +8,8 @@
 		<?php include('includes/meta.php'); ?>
 	</head>
 
+
+
 	<body>
 
 		<header>
@@ -19,11 +21,12 @@
 		</header>
 
 		<main>
-
 			<div class="box" id="maincontainer">
+				
 				<div id="title">
 					<h1>What's this place all about??</h1>
 				</div>
+
 				<div id="comic">
 					<p>Hey there! It looks like you've stumbled upon our little corner of the internet. If you like comics or want to try and make your own comic someday then this is the site for you! "A Web Comic about Making Web Comics" is an informational, educational site focused on leraning the fundamentals and genral wokrflow that most comic authors follow today. Here you will learn how to get your ideas down on paper, more efficient ways to brainstorm, and how to use comic assets. </p>
 					<h1>What's the point??</h1>
@@ -31,15 +34,14 @@
 					<h1>What's in store??</h1>
 					<p>In the future we plan to have more modules available to readers as well as easily sharable information that users can give to their friends and family. The possibilities of workshops and instructional tutorial videos are also in the wokrs so stay tuned!</p>
 				</div>
-				<br>
-			</div>
-			<br>
 
-			<footer id="bottomcontainer" class="box3">
-				<!-- Include Footer Information -->
-				<?php include('includes/footer.php'); ?>
-			</footer>
-			
+			</div>
 		</main>
+
+		<footer id="bottomcontainer" class="box3">
+			<!-- Include Footer Information -->
+			<?php include('includes/footer.php'); ?>
+		</footer>
+		
 	</body>
 </html>
