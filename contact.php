@@ -70,8 +70,22 @@ function validateEmailAddress(email) {
       return expression.test(String(email).toLowerCase());
     }
 
+    resetErrors = () => {
+   //remove all error states -- used by permission from Casey
+   //Cass -- Casey wrote this comment ^^^ :)
+   const errorFields = document.getElementsByClassName("error");
+        if (errorFields.length > 0) {
+          [...errorFields].forEach(errorField => {
+            errorField.classList.remove("error");
+          });
+        }
+}
+
  validation = () => {
       event.preventDefault();
+
+      resetErrors(); 
+      let errorSpotted = false;
 
       const firstName = document.forms["form"]["firstName"]
       const firstNameValue = document.forms["form"]["firstName"].value.trim()
