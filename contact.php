@@ -73,9 +73,6 @@ function validateEmailAddress(email) {
  validation = () => {
       event.preventDefault();
 
-      resetErrors(); 
-      let errorSpotted = false;
-
       const firstName = document.forms["form"]["firstName"]
       const firstNameValue = document.forms["form"]["firstName"].value.trim()
       if (firstNameValue == "") {
