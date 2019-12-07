@@ -101,6 +101,16 @@ function validateEmailAddress(email) {
         _replyto.parentNode.classList.add("errorEmail")
         errorSpotted = true;
       }
+
+      const message = document.forms["form"]["message"]
+      const messageValue = document.forms["form"]["message"].value.trim()
+      if (messageValue == "") {
+        message.parentNode.classList.add("error")
+        errorSpotted = true;
+      }
+
+      if (!errorSpotted)
+        document.getElementById("form").submit();
  }
 			</script>
 		</main>
