@@ -9,18 +9,18 @@
 	</head>
 
 	<body>
-		<div id="header">
-		<a href="index.php"><img src="images/sitename.png"  alt="website"/></a>
-			<img src="images/product.png" alt="product"/>
-		</div>
-		<br>
-		
-		<div id="topcontainer" class="box2">
-			<?php include('includes/navigation.php'); ?>
-		</div>
-		
-		<br>
+
+		<header>
+			<!-- Include Header Content -->
+			<?php include('includes/header.php'); ?>
+		</header>
+
 		<main>
+			<br>
+			<div id="topcontainer" class="box2">
+				<?php include('includes/navigation.php'); ?>
+			</div>
+			<br>
 			<div class="box" id="maincontainer">
 				<div id="title">
 					<h1>Tiers</h1>
