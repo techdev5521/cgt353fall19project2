@@ -13,14 +13,13 @@
 		<header>
 			<!-- Include Header Content -->
 			<?php include('includes/header.php'); ?>
+
+			<!-- Include Navigation Content -->
+			<?php include('includes/navigation.php'); ?>
 		</header>
 
 		<main>
-			<br>
-			<div id="topcontainer" class="box2">
-				<?php include('includes/navigation.php'); ?>
-			</div>
-			<br>
+
 			<div class="box" id="maincontainer">
 				<div id="title">
 					<h1>Step 5: Getting Feedback</h1>
