@@ -1,6 +1,14 @@
 <!-- Start header.php -->
 
-<a href="index.php"><img src="images/sitename.png" alt="website"/></a>
-<img src="images/product.PNG" alt="product"/>
+<div class="row">
+	<div class="col-md-4 d-flex align-items-center justify-content-center">
+		<a href="index.php"><img class="img-fluid" src="images/sitename.png" alt="Site Name"/></a>
+	</div>
+	<div class="col-md-8">
+		<div class="product d-flex align-items-center justify-content-center">
+			<p>Your Product Here!</p>
+		</div>
+	</div>
+</div>
 
 <!-- End header.php -->

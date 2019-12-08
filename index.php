@@ -11,39 +11,39 @@
 
 
 	<body>
+		
+		<div class="container">
+			<header>
+				<!-- Include Header Content -->
+				<?php include('includes/header.php'); ?>
 
-		<header>
-			<!-- Include Header Content -->
-			<?php include('includes/header.php'); ?>
+				<!-- Include Navigation Content -->
+				<?php include('includes/navigation.php'); ?>
+			</header>
+		</div>
+			<main>
+				<div class="box" id="maincontainer">
 
-			<!-- Include Navigation Content -->
-			<?php include('includes/navigation.php'); ?>
-		</header>
+					<div id="title">
+						<h1>Introduction</h1>
+					</div>
 
-		<main>
-			<div class="box" id="maincontainer">
+					<div id="comic">
+						<img src="images/page1.png" id="comicimage" alt="comic1" />
+						<p id="comictext"></p>
+					</div>
 
-				<div id="title">
-					<h1>Introduction</h1>
+					<button id="hide"> </button>
+					<img src="images/pagenumber0.png" alt="page number">
+					<button id="next" onclick="change()"> </button>
+
 				</div>
+			</main>
 
-				<div id="comic">
-					<img src="images/page1.png" id="comicimage" alt="comic1" />
-					<p id="comictext"></p>
-				</div>
-
-				<button id="hide"> </button>
-				<img src="images/pagenumber0.png" alt="page number">
-				<button id="next" onclick="change()"> </button>
-
-			</div>
-		</main>
-
-		<footer id="bottomcontainer" class="box3">
-			<!-- Include Footer Information -->
-			<?php include('includes/footer.php'); ?>
-		</footer>
-
+			<footer id="bottomcontainer" class="box3">
+				<!-- Include Footer Information -->
+				<?php include('includes/footer.php'); ?>
+			</footer>
 	</body>
 
 
