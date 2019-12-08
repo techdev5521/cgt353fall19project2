@@ -21,6 +21,7 @@
 				<?php include('includes/navigation.php'); ?>
 			</header>
 		</div>
+
 			<main>
 				<div class="box" id="maincontainer">
 
