@@ -35,6 +35,14 @@
 					<p>In the future we plan to have more modules available to readers as well as easily sharable information that users can give to their friends and family. The possibilities of workshops and instructional tutorial videos are also in the wokrs so stay tuned!</p>
 				</div>
 
+				<div class="box4">
+					<h1>Website Created By:</h1>
+					<br>
+					<h1>Ian Coffman</h1>
+					<h1>Josh Heller</h1>
+					<h1>Justin Campbell</h1>
+				</div>
+
 			</div>
 		</main>
 		
