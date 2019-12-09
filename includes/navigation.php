@@ -25,14 +25,14 @@
 				<li class="nav-item dropdown">
 					<a href="#" class="nav-link btn btn-green dropdown-toggle" data-toggle="dropdown">Demos</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="demo1.php">Summary</a>
-						<a class="dropdown-item" href="template.php">Basic Outline</a>
-						<a class="dropdown-item" href="panels.php">Panels</a>
-						<a class="dropdown-item" href="speechbubbles.php">Speech Bubbles</a>
-						<a class="dropdown-item" href="tier.php">Tiers</a>
-						<a class="dropdown-item" href="splash.php">Splashes and Spreads</a>
-						<a class="dropdown-item" href="gutter.php">Gutter</a>
-						<a class="dropdown-item" href="caption.php">Captions</a>
+						<a class="dropdown-item" href="demo0.php"><strong>00.</strong> Summary</a>
+						<a class="dropdown-item" href="demo1.php"><strong>01.</strong> Basic Outline</a>
+						<a class="dropdown-item" href="demo2.php"><strong>02.</strong> Panels</a>
+						<a class="dropdown-item" href="demo3.php"><strong>03.</strong> Speech Bubbles</a>
+						<a class="dropdown-item" href="demo4.php"><strong>04.</strong> Tiers</a>
+						<a class="dropdown-item" href="demo5.php"><strong>05.</strong> Splashes and Spreads</a>
+						<a class="dropdown-item" href="demo6.php"><strong>06.</strong> Gutter</a>
+						<a class="dropdown-item" href="demo7.php"><strong>07.</strong> Captions</a>
 					</div>
 				</li>
 			</div>

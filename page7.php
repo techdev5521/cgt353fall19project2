@@ -36,7 +36,7 @@ include('includes/helper_functions.php');
 				</div>
 
 				<!-- Include Navigation Buttons -->
-				<?php include('includes/navigation-buttons.php'); ?>
+				<?php include('includes/navigation-buttons-chapter.php'); ?>
 
 				<div class="row" id="comic">
 					<div class="col-12 text-center"><img src="images/panel-images/07-01.png" alt="Hosting" class="img-fluid"></div>
@@ -53,7 +53,7 @@ include('includes/helper_functions.php');
 				</div>
 
 				<!-- Include Navigation Buttons -->
-				<?php include('includes/navigation-buttons.php'); ?>
+				<?php include('includes/navigation-buttons-chapter.php'); ?>
 
 			</main>
 		</div>

@@ -8,7 +8,7 @@ include('includes/helper_functions.php');
 <html lang="en">
 
 	<head>
-		<title>Project2 - Outline</title>
+		<title>Project2 - Caption</title>
 
 		<!-- Meta and Link Data -->
 		<?php include('includes/meta.php'); ?>
@@ -31,7 +31,7 @@ include('includes/helper_functions.php');
 
 					<div class="row">
 						<div class="col">
-							<h1 class="title">Basic Outline</h1>
+							<h1 class="title">Caption</h1>
 						</div>
 					</div>
 
@@ -39,18 +39,12 @@ include('includes/helper_functions.php');
 					<?php include('includes/navigation-buttons-demo.php'); ?>
 
 					<div class="row" id="comic">
-						<div class="col-4 text-center">
-							<img src="images/comictemplate.png" alt="Example" class="img-fluid">
-						</div>
-						<div class="col-4 text-center">
-							<img src="images/comictemplate2.png" alt="Example" class="img-fluid">
-						</div>
-						<div class="col-4 text-center">
-							<img src="images/comictemplate3.jpg" alt="Example" class="img-fluid">
+						<div class="col-12 text-center">
+							<img src="images/caption.jpg" alt="Gutter" class="img-fluid">
 						</div>
 						
 						<div class="col-12">
-							<p>Here are some basic outlines for a comic strip that you would normally see in a book. While they look different they all generally follow the same function as any other piece of literature. They are read from left to right, top to bottom, and generally span across two pages.</p>
+							<p>"Captions" are similar to speech bubbles but they specifically target the narrator. They are ususally placed up near the corner of the panel.</p>
 						</div>
 					</div>
 
@@ -59,9 +53,8 @@ include('includes/helper_functions.php');
 
 				</main>
 			</div>
-
 	</body>
+	
 
-
-
+	
 </html>
