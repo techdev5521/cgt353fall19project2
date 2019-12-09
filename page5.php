@@ -1,3 +1,9 @@
+<?php
+
+// Include helper_functions.php
+include('includes/helper_functions.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,54 +18,35 @@
 
 	<body>
 
-		<header>
-			<!-- Include Header Content -->
-			<?php include('includes/header.php'); ?>
+		<div class="container">
+			<header>
+				<!-- Include Header Content -->
+				<?php include('includes/header.php'); ?>
 
-			<!-- Include Navigation Content -->
-			<?php include('includes/navigation.php'); ?>
-		</header>
+				<!-- Include Navigation Content -->
+				<?php include('includes/navigation.php'); ?>
+			</header>
 
-		<main>
-			<div class="box" id="maincontainer">
-
-				<div id="title">
-					<h1>Step 5: Getting Feedback</h1>
+			<main class="box background-white p-5 mb-5">
+				
+				<div class="row">
+					<div class="col">
+						<h1 class="title">Step 05: Getting Feedback</h1>
+					</div>
 				</div>
 
-				<div id="comic">
-					<img src="images/page 5.png" id="comicimage" alt="comic" />
+				<div class="row" id="comic">
+					
 				</div>
 
-				<button id="prev" onclick="change0()"></button>
-				<img src="images/pagenumber5.png" alt="page number">
-				<button id="next" onclick="change()"></button>
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
 
-			</div>
-			
-		</main>
+			</main>
+		</div>
 
 
 	</body>
-
-
-
-	<script>
-		function change0() {
-			location.href="page4.php";
-		}
-		
-		function change2() {
-			document.getElementById("comicimage").src = "images/page 5.png";
-			document.getElementById('next').onclick = function() {change()};
-			document.getElementById('prev').onclick = function() {change0()};
-		}
-		function change() {
-			document.getElementById("comicimage").src = "images/page 5.1.png";
-			document.getElementById('next').onclick = function() { location.href="page6.php"; };
-			document.getElementById('prev').onclick = function() {change2()};
-		}
-	</script>
 
 
 		

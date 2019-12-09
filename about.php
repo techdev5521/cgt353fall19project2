@@ -20,7 +20,7 @@
 			<?php include('includes/navigation.php'); ?>
 		</header>
 
-		<main>
+		<main class="box background-white p-5 mb-5">
 			<div class="box" id="maincontainer">
 				
 				<div id="title">

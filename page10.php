@@ -1,3 +1,9 @@
+<?php
+
+// Include helper_functions.php
+include('includes/helper_functions.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,41 +18,34 @@
 
 	<body>
 
-		<header>
-			<!-- Include Header Content -->
-			<?php include('includes/header.php'); ?>
+		<div class="container">
+			<header>
+				<!-- Include Header Content -->
+				<?php include('includes/header.php'); ?>
 
-			<!-- Include Navigation Content -->
-			<?php include('includes/navigation.php'); ?>
-		</header>
+				<!-- Include Navigation Content -->
+				<?php include('includes/navigation.php'); ?>
+			</header>
 
-		<main>
-			<div class="box" id="maincontainer">
-
-				<div id="title">
-					<h1>Step 10: Keep going!</h1>
+			<main class="box background-white p-5 mb-5">
+				
+				<div class="row">
+					<div class="col">
+						<h1 class="title">Step 10: Keep Going</h1>
+					</div>
 				</div>
 
-				<div id="comic">
-					<img src="images/page10.png" id="comicimage" alt="comic" />
+				<div class="row" id="comic">
+					
 				</div>
 
-				<button id="prev" onclick="change0()"></button>
-				<img src="images/pagenumber10.png" alt="page number">
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
 
-			</div>
-			
-		</main>
+			</main>
+		</div>
 
 	</body>
-
-
-
-	<script>
-		function change0() {
-			location.href="page9.php" ;
-		}
-	</script>
 
 
 	

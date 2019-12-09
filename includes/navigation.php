@@ -10,14 +10,14 @@
 						<a href="index.php" class="dropdown-item"><strong>00.</strong> Introduction</a>
 						<a href="page1.php" class="dropdown-item"><strong>01.</strong> Think of an Idea</a>
 						<a href="page2.php" class="dropdown-item"><strong>02.</strong> Develop Settings and Characters</a>
-						<a href="page3.php" class="dropdown-item"><strong>03.</strong> Plan out Your Comic</a>
-						<a href="page4.php" class="dropdown-item"><strong>04.</strong> Do a Test Run</a>
+						<a href="page3.php" class="dropdown-item"><strong>03.</strong> Planning Out Your Comic</a>
+						<a href="page4.php" class="dropdown-item"><strong>04.</strong> Do A Test Run</a>
 						<a href="page5.php" class="dropdown-item"><strong>05.</strong> Getting Feedback</a>
-						<a href="page6.php" class="dropdown-item"><strong>06.</strong> Making a Schedule</a>
-						<a href="page7.php" class="dropdown-item"><strong>07.</strong> Finding a Host for your Comic</a>
-						<a href="page8.php" class="dropdown-item"><strong>08.</strong> Posting your Comic</a>
+						<a href="page6.php" class="dropdown-item"><strong>06.</strong> Making A Schedule</a>
+						<a href="page7.php" class="dropdown-item"><strong>07.</strong> Finding A Host for your Comic</a>
+						<a href="page8.php" class="dropdown-item"><strong>08.</strong> Posting Your Comic</a>
 						<a href="page9.php" class="dropdown-item"><strong>09.</strong> Advertising</a>
-						<a href="page10.php" class="dropdown-item"><strong>10.</strong> What's Next?</a>
+						<a href="page10.php" class="dropdown-item"><strong>10.</strong> Keep Going</a>
 					</div>
 				</li>
 			</div>
