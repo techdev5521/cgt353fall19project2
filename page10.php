@@ -38,11 +38,6 @@
 			
 		</main>
 
-		<footer id="bottomcontainer" class="box3">
-			<!-- Include Footer Information -->
-			<?php include('includes/footer.php'); ?>
-		</footer>
-
 	</body>
 
 

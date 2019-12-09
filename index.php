@@ -20,7 +20,6 @@
 				<!-- Include Navigation Content -->
 				<?php include('includes/navigation.php'); ?>
 			</header>
-		</div>
 
 			<main>
 				<div class="box" id="maincontainer">
@@ -40,11 +39,8 @@
 
 				</div>
 			</main>
+		</div>
 
-			<footer id="bottomcontainer" class="box3">
-				<!-- Include Footer Information -->
-				<?php include('includes/footer.php'); ?>
-			</footer>
 	</body>
 
 
