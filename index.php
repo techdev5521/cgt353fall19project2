@@ -35,6 +35,9 @@ include('includes/helper_functions.php');
 					</div>
 				</div>
 
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
+
 				<div class="row" id="comic">
 					<div class="col-12 text-center">
 						<p>Have you ever read any of the following web comics?</p>

@@ -35,8 +35,17 @@ include('includes/helper_functions.php');
 					</div>
 				</div>
 
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
+
 				<div class="row" id="comic">
-					
+					<div class="col-12 text-center">
+						<img src="images/panel-images/08-01.png" alt="Posting" class="img-fluid">
+					</div>
+
+					<div class="col-12">
+						<p>Once you’ve made your decision on where to host your comic, post it for all the world to see! But now that it’s on the web, how will you get people to see it?</p>
+					</div>
 				</div>
 
 				<!-- Include Navigation Buttons -->

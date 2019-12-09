@@ -35,8 +35,17 @@ include('includes/helper_functions.php');
 					</div>
 				</div>
 
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
+
 				<div class="row" id="comic">
-					
+					<div class="col-12 text-center">
+						<img src="images/panel-images/09-01.png" alt="Advertising" class="img-fluid">
+					</div>
+
+					<div class="col-12">
+						<p>Get the word out! Tell your friends and acquaintances about what you’ve made and where to find it. Go to your social media and advertise it there. Maybe even go to conventions and tell as many con goers you meet about your work of art. And if you’ve got the money or connections, post ads on similar websites. Anything goes as long people know about what you made.</p>
+					</div>
 				</div>
 
 				<!-- Include Navigation Buttons -->

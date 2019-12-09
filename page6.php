@@ -35,8 +35,18 @@ include('includes/helper_functions.php');
 					</div>
 				</div>
 
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
+
 				<div class="row" id="comic">
-					
+					<div class="col-12 text-center">
+						<img src="images/panel-images/06-01.png" alt="Schedule" class="img-fluid">
+					</div>
+
+					<div class="col-12">
+						<p>After making the final draft, think about how often you can update your comic. Will it be once a week? Once a month? Once every two months? That’ll be up to you to determine.</p>
+						<p>Once you’ve got an idea of how often you’ll update, think about how large your buffer will be. Most comics have more than one page done at a time in order to allow for a constant flow of content, or in the case that a page can’t be done on time due to various circumstances. This is what we call a buffer, and how large your buffer will be will also vary.</p>
+					</div>
 				</div>
 
 				<!-- Include Navigation Buttons -->

@@ -35,8 +35,17 @@ include('includes/helper_functions.php');
 					</div>
 				</div>
 
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
+
 				<div class="row" id="comic">
-					
+					<div class="col-12 text-center">
+						<img src="images/panel-images/10-01.png" alt="Keep Going" class="img-fluid">
+					</div>
+
+					<div class="col-12">
+						<p>Now that everything’s been drawn out, posted, and being read by hundreds of people, keep going. Follow your schedule and post when you can. How many strips will you create? How long will your story be? How many years will you spend working on this comic, if it even lasts that long? That’s for you to find out. </p>
+					</div>
 				</div>
 
 				<!-- Include Navigation Buttons -->
