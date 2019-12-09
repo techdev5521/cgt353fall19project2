@@ -4,12 +4,6 @@
 include('includes/helper_functions.php');
 
 ?>
-<?php
-
-// Include helper_functions.php
-include('includes/helper_functions.php');
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
