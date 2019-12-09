@@ -10,6 +10,9 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
+<!-- FontAwesome CSS & JavaScript -->
+<link rel="stylesheet" href="css/all.css">
+<script src="js/all.js"></script>
 
 <!-- Our CSS: Must be after Bootstrap to override it -->
 <link rel="stylesheet" href="css/styles.css" />

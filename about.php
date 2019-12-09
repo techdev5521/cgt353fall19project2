@@ -35,7 +35,7 @@
 					<p>In the future we plan to have more modules available to readers as well as easily sharable information that users can give to their friends and family. The possibilities of workshops and instructional tutorial videos are also in the wokrs so stay tuned!</p>
 				</div>
 
-				<div class="box4">
+				<div>
 					<h1>Website Created By:</h1>
 					<br>
 					<h1>Ian Coffman</h1>

@@ -62,6 +62,7 @@ ul.nav li{
 
 .dropdown-item{
 	color: white;
+	font-size: 1.2em;
 }
 
 .dropdown-item:hover{
@@ -69,133 +70,15 @@ ul.nav li{
 	background-color: #007dff;
 }
 
-.box2 {
-	background: rgb(50, 205, 166);
-	border-style: solid;
-	border-width: 1.5px;
-	border-color: rgb(50, 205, 166);
-	border-radius: 11px;
-	box-shadow: 10px 10px 8px black;
-}
-
-.box3 {
-	background: rgb(130, 233, 207);
-	border-style: solid;
-	border-width: 1.5px;
-	border-color: rgb(130, 233, 207);
-	border-radius: 11px;
-	box-shadow: 10px 10px 8px black;
-}
-
-.box4 {
-	background: rgb(167, 240, 220);
-	border-style: solid;
-	border-width: 3px;
-	border-color: rgb(57, 187, 155);
-	border-radius: 11px;
-}
-
-#topcontainer {
-	font-size: 15px;
-	width: 1111px;
-	position: relative;
+.title{
 	text-align: center;
-	margin: 0 auto;
-	height: 85px;
-	margin-bottom: -1rem;
-}
-
-#topcontainer a {
-	background: rgb(20, 168, 130);
-	border-style: solid;
-	border-width: 1.5px;
-	border-radius: 11px;
-	padding: 4px;
-	margin-left: 4px;
-	color: white;
-}
-
-#topcontainer h1 {
-	display: inline-block;
-}
-
-#topcontainer a:hover {
-	background: rgb(0, 125, 255);
-}
-
-#advertisement {
-	width: 750px;
-	height: 110px;
-	top: 18px;
-	right: 50px;
-	float: left;
-}
-
-#maincontainer {
-	width: 1111px;
-	margin: 5px  auto;
-	padding: 10px 0;
-}
-
-#bottomcontainer {
-	width: 1075px;
-	margin-top: 5px;
-	padding: 25px 15px;
-}
-
-#title {
-	margin: 10px;
-	font-size: 20px;
-	font-weight: 800;
+	font-weight: bold;
+	font-size: 3em;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#comic {
-	position: relative;
-	margin: auto;
-	z-index: 9;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
-}
-
-#prev {
-	background-image: url("../images/backbutton.png");
-	background-color: transparent;
-	width: 100px;
-	height: 35px;
-	border: none;
-	cursor: pointer;
-}
-
-#prev:hover {
-	background-image: url("../images/backbuttonhover.png");
-	background-color: transparent;
-	width: 100px;
-	height: 35px;
-	border: none;
-	cursor: pointer;
-}
-
-#next {
-	background-image: url("../images/forwardbutton.png");
-	background-color: transparent;
-	width: 100px;
-	height: 35px;
-	border: none;
-	cursor: pointer;
-}
-
-#next:hover {
-	background-image: url("../images/forwardbuttonhover.png");
-	background-color: transparent;
-	width: 100px;
-	height: 35px;
-	border: none;
-	cursor: pointer;
+#comic{
+	font-size: 1.5em;
 }
 
 #message {

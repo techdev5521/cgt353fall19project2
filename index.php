@@ -1,3 +1,9 @@
+<?php
+
+// Include helper_functions.php
+include('includes/helper_functions.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -21,48 +27,64 @@
 				<?php include('includes/navigation.php'); ?>
 			</header>
 
-			<main>
-				<div class="box" id="maincontainer">
+			<main class="box background-white p-5 mb-5">
 
-					<div id="title">
-						<h1>Introduction</h1>
+				<div class="row">
+					<div class="col">
+						<h1 class="title">Introduction</h1>
 					</div>
-
-					<div id="comic">
-						<img src="images/page1.png" id="comicimage" alt="comic1" />
-						<p id="comictext"></p>
-					</div>
-
-					<button id="hide"> </button>
-					<img src="images/pagenumber0.png" alt="page number">
-					<button id="next" onclick="change()"> </button>
-
 				</div>
+
+				<div class="row" id="comic">
+					<div class="col-12 text-center">
+						<p>Have you ever read any of the following web comics?</p>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="row text-center">
+							<div class="col-12">
+								<a href="https://www.homestuck.com/" target="_blank"><p>Homestuck <i class="fas fa-chevron-right ml-2"></i></p></a>
+							</div>
+							<div class="col-12">
+								<img class="img-fluid" src="images/panel-images/00-01-Homestuck.png" alt="Homestuck">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="row text-center">
+							<div class="col-12">
+								<a href="https://www.penny-arcade.com/" target="_blank"><p>Penny Arcade <i class="fas fa-chevron-right ml-2"></i></p></a>
+							</div>
+							<div class="col-12">
+								<img class="img-fluid" src="images/panel-images/00-02-Penny_Arcade.png" alt="Penny Arcade">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 text-center">
+						<div class="row">
+							<div class="col-12">
+								<a href="https://xkcd.com/" target="_blank"><p>xkcd <i class="fas fa-chevron-right ml-2"></i></p></a>
+							</div>
+							<div class="col-12">
+								<img class="img-fluid" src="images/panel-images/00-03-xkcd.png" alt="xkcd">
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<p>Have you thought “I want to do something like that and show it to the world”, but didn’t know how to go about that? Well this is an illustrated just for you! In this comic about making a web comic, we’ll go over all the steps to take in order to get you on the right track of making your gift to the online world. The first thing you need to do is press <i class="fas fa-forward ml-2"></i> below!</p>
+					</div>
+				</div>
+
+				<!-- Include Navigation Buttons -->
+				<?php include('includes/navigation-buttons.php'); ?>
+
 			</main>
 		</div>
 
 	</body>
-
-
-
-	<script>
-		function change() {
-			document.getElementById("comicimage").src = "images/page1.2.png";
-			document.getElementById('next').onclick = function() {change3()};
-			document.getElementById("hide").id = "prev";
-			document.getElementById('prev').onclick = function() {change2()};
-		}
-		function change2() {
-			document.getElementById("comicimage").src = "images/page1.png";
-			document.getElementById('next').onclick = function() {change()};
-			document.getElementById("prev").id = "hide";
-		}
-		function change3() {
-			document.getElementById("comicimage").src = "images/page1.3.png";
-			document.getElementById('next').onclick = function() { location.href="page1.php"; };
-			document.getElementById('prev').onclick = function() {change()};
-		}
-	</script>
 
 
 
